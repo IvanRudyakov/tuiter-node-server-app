@@ -11,7 +11,7 @@ const createTuit = (req, res) => {
     newTuit.replies = 0;
     newTuit.retuits = 0;
     tuits.push(newTuit);
-    res.json(newTuit);
+    res.json(newTuit); 
 }
 
 const findTuits = (req, res) => res.json(tuits);
